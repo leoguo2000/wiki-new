@@ -11,5 +11,8 @@ public class TestController {
         return "Hello World!";
     }
 
-
+    @RequestMapping("/Hello/post")/*浏览器默认使用get请求 如果更改访问方法（post） 会有405错误*/
+    public String HelloPost(String name){
+        return "Hello World!"+name;
+    }
 }
