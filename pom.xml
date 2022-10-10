@@ -57,7 +57,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.4.1</version>
                 <configuration>
-                    <mainClass>com.jiawa.wiki.WikiApplication</mainClass>
+                    <mainClass>com.jiawa.wiki.config.WikiApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
